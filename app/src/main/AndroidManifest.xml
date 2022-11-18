@@ -10,6 +10,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ViewBinding_DataBinding_Example">
         <activity
+            android:name=".DataBinding_ViewModel_LiveData"
+            android:exported="false" />
+        <activity
+            android:name=".DataBinding_ViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".DataBinding"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBinding_ViewModel_LiveData"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBinding_ViewModel"
+            android:exported="false" />
+        <activity
+            android:name=".ViewBinding"
+            android:exported="false"
+            android:label="@string/title_activity_view_binding"
+            android:theme="@style/Theme.ViewBinding_DataBinding_Example.NoActionBar" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
